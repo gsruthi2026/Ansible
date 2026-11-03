@@ -7,6 +7,6 @@
   tasks:
   - name: vars
     debug:
-      msg: |
-         Hi all learning {{variables}} 
-         Technology is {{Technology}}
+      msg: 
+        - Hi all learning {{ variables }} 
+        - Technology is {{ Technology }}
