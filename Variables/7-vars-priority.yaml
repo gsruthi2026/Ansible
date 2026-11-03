@@ -7,8 +7,8 @@
   - name: topic
     prompt: Please enter your topic
     private: false
-  vars_files:
-  - file1.yaml
+#  vars_files:
+#  - file1.yaml
   tasks:
   - name: print course information
 #    vars:
