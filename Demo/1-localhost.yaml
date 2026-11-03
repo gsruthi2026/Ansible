@@ -4,7 +4,7 @@
   tasks:
   - name: ping
     ansible.builtin.ping:
-      msg: "ping with hosts:localhost and connection is local"
+      
   
 
 #ansible-playbook 1-localhost.yaml
