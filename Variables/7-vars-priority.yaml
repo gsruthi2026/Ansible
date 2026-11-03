@@ -11,8 +11,8 @@
   - file1.yaml
   tasks:
   - name: print course information
-    vars:
-      topic: "ansible from task"
+#    vars:
+#      topic: "ansible from task"
     debug:
       msg: "Hi, all you have selected   {{ topic }}  "
 
