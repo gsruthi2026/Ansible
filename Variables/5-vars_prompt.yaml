@@ -7,7 +7,7 @@
      private: false
    - name: password
      prompt: please enter your password
-     private: ture
+     private: true
   tasks:
   - name: vars_prompt
     debug:
