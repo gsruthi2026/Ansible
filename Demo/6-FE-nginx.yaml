@@ -1,0 +1,16 @@
+- name: install nginx on frondend server
+  hosts: frontend
+  connection: ssh # you  can ignore don't mention also fine ansible take bydefault.
+  become: yes
+  tasks:
+  - name: install nginx
+    package:      #module check in background which distribution (dnf /apt ) it will applies any ditribution you give same .
+      name: nginx
+      state: present 
+  - name: start nginx
+    service:
+     name: nginx
+     state: started
+     enabled: yes
+
+#ansible-playbook -i inventory.ini -e ansible_user="ec2-user" -e ansible_password="DevOps321"  6-FE-nginx.yaml

@@ -1,0 +1,22 @@
+- name: playbook1
+  hosts: local
+  connection: local
+  tasks:
+  - name: task1
+    debug:
+     msg: "playbook1 task1"
+  - name: task2
+    debug:
+     msg: "playbook1 task2"
+- name: playbook2
+  hosts: local
+  connection: local
+  tasks:
+  - name: task1
+    debug:
+     msg: "playbook2 task1"
+  - name: task2
+    debug:
+     msg: "playbook2 task2"
+
+#ansible-playbook -i inventory.ini 5-playbooks.yaml

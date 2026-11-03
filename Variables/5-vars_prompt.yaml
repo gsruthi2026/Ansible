@@ -1,0 +1,17 @@
+- name: variables defined with vars_prompt
+  hosts: local
+  connection: local
+  vars_prompt:
+   - name: username
+     prompt: please enter your username
+     private: false
+   - name: password
+     prompt: please enter your password
+     private: ture
+  tasks:
+  - name: vars_prompt
+    debug:
+       msg: |
+        Hi {{username}}
+        This is your password {{password}}
+         

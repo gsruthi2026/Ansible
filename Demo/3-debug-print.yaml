@@ -1,0 +1,11 @@
+- name: ping demo #playbook name
+  hosts: local 
+  connection: local
+  tasks: 
+  - name: print/debug
+    ansible.builtin.debug: #module to ping 
+      msg: "  Hi there I am using debug module to print message"
+
+            
+    
+#ansible-playbook 3-debud-print.yaml

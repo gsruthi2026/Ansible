@@ -1,0 +1,15 @@
+- name: variables defined in files
+  hosts: local
+  connection: local
+  vars_files:
+   - file1.yaml
+     file2.yaml
+     file3.yaml
+     
+  tasks:
+  - name: vars_files
+    debug:
+       msg: |
+         Hi all learning {{variables}} 
+         Technology is {{Technology}}
+         now we are exploring  {{Tool}}  cm tool

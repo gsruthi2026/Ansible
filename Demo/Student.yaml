@@ -1,0 +1,25 @@
+- Name: Student-details
+  firstName: Alex
+  lastName: John
+  DOB: 1-1-2002
+  Addresses:
+  - type: temporary
+    doorNo: 1-564
+    streetName: RVN nagar
+    City: Hyd
+  - type: temporary
+    doorNo: 1-564
+    streetName: RVN nagar
+    City: Hyd
+  Skills:
+     OS: linux
+     IDE: VScose
+     CM: Ansible 
+
+
+
+
+
+
+
+ 

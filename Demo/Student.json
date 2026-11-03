@@ -1,0 +1,24 @@
+{
+  "firstName": "Alex",
+  "lastName": "John",
+  "DOB": "1-1-2001",
+  "addresses": [
+    {
+      "type": "temp",
+      "doorno": "123-34",
+      "streetName": "RVN nagar",
+      "city": "Hyd"
+    },
+    {
+      "type": "permanent",
+      "doorno": "123-34",
+      "streetName": "RVN nagar",
+      "city": "Hyd"
+    }
+  ],
+  "skills": {
+    "os": "linux",
+    "ide": "vscode",
+    "cm": "ansible"
+  }
+}

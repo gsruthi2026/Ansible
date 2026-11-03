@@ -1,0 +1,2 @@
+variables: "vars from file1"
+topic: ansible from file1

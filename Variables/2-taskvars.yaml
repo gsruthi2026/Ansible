@@ -1,0 +1,17 @@
+- name: variables defined in playbook level and task level 
+  hosts: local
+  connection: local
+  vars:
+     variables: "vars from playbook"
+     Technology: "Devsecops"
+  tasks:
+  - name: vars at task level
+    vars:
+      variables: "vars from task"
+      Technology: "Devsecops"
+      
+      
+    debug:
+       msg: |
+         Hi all learning {{variables}} 
+         Technology is {{Technology}}

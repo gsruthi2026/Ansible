@@ -1,0 +1,24 @@
+- name: variables priority
+  hosts: local
+  connection: local
+  vars:
+    topic: "ansible from playbook "
+  vars_prompt:
+  - name: topic
+    prompt: Please enter your topic
+    private: false
+  vars_files:
+  - file1.yaml
+  tasks:
+  - name: print course information
+    vars:
+      topic: "ansible from task"
+    debug:
+      msg: "Hi, all you have selected   {{ topic }} topic "
+
+# 1. CMD  ansible-playbook -i inventory.ini 7-vars-priority.yaml -e "topic='ansible from cmd'"
+# 2. task  ansible-playbook -i inventory.ini 7-vars-priority.yaml 
+# 3. File  ansible-playbook -i inventory.ini 7-vars-priority.yaml 
+# 4. prompt  ansible-playbook -i inventory.ini 7-vars-priority.yaml 
+# 5. PLAY    ansible-playbook -i inventory.ini 7-vars-priority.yaml 
+# 6. Inventory  ansible-playbook -i inventory.ini 7-vars-priority.yaml 

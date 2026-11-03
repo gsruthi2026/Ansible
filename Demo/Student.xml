@@ -1,0 +1,22 @@
+<Student>
+	<firstName>Alex</firstName>
+	<lastName>John</lastName>
+	<DOB>1-1-2001</DOB>
+	<addresses>
+		<address type="temp">
+			<doorNo>89-899</doorNo>
+			<streetName>RVN Nagar</streetName>
+			<city>Hyderabad</city>
+		</address>
+		<address type="perm">
+			<doorNo>89-899</doorNo>
+			<streetName>RVN Nagar</streetName>
+			<city>Hyderabad</city>
+		</address>
+	</addresses>
+	<skills>
+		<os>linux</os>
+		<ide>vscode</ide>
+		<cm>ansible</cm>
+	</skills>
+</Student>

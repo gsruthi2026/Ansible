@@ -1,0 +1,14 @@
+- name: ping demo #playbook name
+  hosts: local 
+  connection: local
+  tasks: #task =module=collection
+  - name: ping  #task name
+    ansible.builtin.ping: #module to ping 
+      msg: "  pinging ansible control node with hosts:local and connection is local"
+
+            
+    
+#ansible-playbook 2-local.yaml
+#inventory.init
+#[local]
+#localhost
