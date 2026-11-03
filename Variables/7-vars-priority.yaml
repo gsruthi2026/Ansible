@@ -14,7 +14,7 @@
     vars:
       topic: "ansible from task"
     debug:
-      msg: "Hi, all you have selected   {{ topic }} topic "
+      msg: "Hi, all you have selected   {{ topic }}  "
 
 # 1. CMD  ansible-playbook -i inventory.ini 7-vars-priority.yaml -e "topic='ansible from cmd'"
 # 2. task  ansible-playbook -i inventory.ini 7-vars-priority.yaml 
