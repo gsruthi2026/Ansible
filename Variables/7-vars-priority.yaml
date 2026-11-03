@@ -3,10 +3,10 @@
   connection: local
   vars:
     topic: "ansible from playbook "
-  vars_prompt:
-  - name: topic
-    prompt: Please enter your topic
-    private: false
+#   vars_prompt:
+#    - name: topic
+#     prompt: Please enter your topic
+#     private: false
 #  vars_files:
 #  - file1.yaml
   tasks:
