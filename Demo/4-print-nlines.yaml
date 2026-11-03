@@ -3,7 +3,7 @@
   connection: local
   tasks:
   - name: task to print n lines
-    ansible.buildin.debug:
+    ansible.builtin.debug:
       msg: |
            printing line1
            printing line2
