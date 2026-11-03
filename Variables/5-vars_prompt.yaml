@@ -11,7 +11,7 @@
   tasks:
   - name: vars_prompt
     debug:
-       msg: |
-        Hi {{username}}
-        This is your password {{password}}
+       msg: 
+        - Hi {{username}}
+        - This is your password {{password}}
          

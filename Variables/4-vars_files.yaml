@@ -9,7 +9,7 @@
   tasks:
   - name: vars_files
     debug:
-       msg: |
-         Hi all learning {{variables}} 
-         Technology is {{Technology}}
-         now we are exploring  {{Tool}}  cm tool
+       msg: 
+         - Hi all learning {{variables}} 
+         - Technology is {{Technology}}
+         - now we are exploring  {{Tool}}  cm tool

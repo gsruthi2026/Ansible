@@ -4,8 +4,8 @@
   tasks:
   - name: vars from inventory
     debug:
-       msg: |
-         Hi all 
-          we are learning {{vars1}}
-         we are learning {{vars2}}
+       msg: 
+         - Hi all 
+         - we are learning {{vars1}}
+         - we are learning {{vars2}}
          
