@@ -1,8 +1,8 @@
 - name: variables priority
   hosts: local
   connection: local
-  vars:
-    topic: "ansible from playbook "
+  # vars:
+  #   topic: "ansible from playbook "
 #   vars_prompt:
 #    - name: topic
 #     prompt: Please enter your topic
