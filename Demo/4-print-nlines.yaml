@@ -4,10 +4,16 @@
   tasks:
   - name: task to print n lines
     ansible.builtin.debug:
-      msg: |
-           printing line1
-           printing line2
-           printing line3
-           printing line4
+    #  msg: |
+    #       printing line1
+    #       printing line2
+    #       printing line3
+    #       printing line4
+      msg: 
+         -  printing line1
+         -  printing line2
+         -  printing line3
+         -  printing line4
+
 
 #ansible-playbook -i inventory.ini 4-print-nlines.yaml
