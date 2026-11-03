@@ -4,7 +4,7 @@
   tasks:
   - name: task to print n lines
     ansible.buildin.debug:
-     msg: |
+      msg: |
          printing line1
          printing line2
          printing line3

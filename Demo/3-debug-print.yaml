@@ -4,7 +4,7 @@
   tasks: 
   - name: print/debug
     ansible.builtin.debug: #module to ping 
-      msg: "  Hi there I am using debug module to print message"
+       msg: "  Hi there I am using debug module to print message"
 
             
     
